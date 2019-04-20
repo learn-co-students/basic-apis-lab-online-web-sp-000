@@ -6,12 +6,12 @@
 <% end %>
 
 <div>
-  <% if @repos  %>
+  <% if @repos %>
   <ul>
-  <% @repos["items"].each do |repo| %>
+  <% @repos.each do |repo| %>
     <li>
       name: <%= repo["name"] %><br>
-      url: <%= link_to "https://github.com/dtrupenn/Tetris", "https://github.com/dtrupenn/Tetris" %><br>
+      url: <%= link_to repo["html_url"], repo["html_url"] %><br>
       description: <%= repo["description"] %>
     </li>
   <% end %>
