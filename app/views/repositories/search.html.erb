@@ -5,12 +5,15 @@
   <%= submit_tag "Search Github!" %>
 <% end %>
 
-<% if @friends.size > 0 %>
-  <ul>
-    <% @friends.each do |friend| %>
-      <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
-    <% end %>
-  </ul>
-<% else %>
-  <p>Looks like you don't have any foursquare friends yet.</p>
-<% end %>
+
+
+<% if @results %>
+  <div>
+    <ul>
+      <%= @results.each do |q| %>
+        <li> <%= q['name'] %>, <%= link_to q['html_url'], q['html_url'] %>, <%= q['description']%>
+        </li>
+      <%end%>
+    </ul>
+  </div>
+<%end%>
