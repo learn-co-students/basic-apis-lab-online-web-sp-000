@@ -39,10 +39,12 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'shoulda-matchers'
+  gem 'pry'
 end
 gem 'webmock', group: :test
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
+  
   gem 'web-console', '~> 2.0'
 end
