@@ -14,10 +14,7 @@ class RepositoriesController < ApplicationController
     end
 
     body = JSON.parse(@resp.body)
-    if @resp.success?
       @repo = body["items"]
-    else
-      @error = body["meta"]["errorDetail"]
-    end
+      render "search"
   end
 end

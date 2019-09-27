@@ -5,10 +5,8 @@
   <%= submit_tag "Search Github!" %>
 <% end %>
 
-<div>
-  <% if @error %>
-    <p><%= @error %></p>
-  <% elsif @repo %>
+
+  <% if @repo %>
     <ul>
     <% @repo.each do |rep| %>
       <li>
@@ -19,4 +17,3 @@
     <% end %>
     </ul>
   <% end %>
-</div>
