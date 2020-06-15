@@ -1,0 +1,16 @@
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/home/parallaxer/.rvm/rubies/ruby-2.6.1/bin/ruby -I /home/parallaxer/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190623-21783-d6wq5m.rb extconf.rb
+
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

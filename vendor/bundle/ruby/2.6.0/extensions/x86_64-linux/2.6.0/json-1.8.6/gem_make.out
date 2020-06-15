@@ -1,0 +1,13 @@
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+/home/parallaxer/.rvm/rubies/ruby-2.6.1/bin/ruby -I /home/parallaxer/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190623-21783-1dcv6v4.rb extconf.rb
+creating Makefile
+
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/parallaxer/Desktop/Rails_JS/basic-apis-lab-online-web-sp-000/vendor/bundle/ruby/2.6.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
