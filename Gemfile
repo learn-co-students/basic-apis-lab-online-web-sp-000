@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+gem 'dotenv-rails'
+gem 'faraday'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
@@ -22,7 +23,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'faraday'
+
+gem 'pry'
 gem 'rails-controller-testing'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
